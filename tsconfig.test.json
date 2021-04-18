@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "src/**/__tests__/**/*",
+    "src/**/__helpers__/**/*",
+    "src/**/*.test.ts",
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+  },
+  "references": [
+    { "path": "./tsconfig.build.json" },
+  ]
+}

@@ -1,0 +1,6 @@
+# Compiled
+dist/
+
+# Installed
+node_modules/
+*.tsbuildinfo
